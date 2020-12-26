@@ -1,0 +1,29 @@
+{
+  "name": "mr-min-tail-css",
+  "version": "0.1.0",
+  "description": "mini package for css classNames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaRastegar/mr-min-tail-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Mostafa Rastegar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MostafaRastegar/mr-min-tail-css/issues"
+  },
+  "homepage": "https://github.com/MostafaRastegar/mr-min-tail-css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0"
+  }
+}

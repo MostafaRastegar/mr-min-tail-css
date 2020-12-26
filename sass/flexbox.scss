@@ -1,0 +1,50 @@
+// flex
+.flex {
+  &-1 {
+    flex: 1 1 0%;
+  }
+  &-auto {
+    flex: 1 1 auto;
+  }
+  &-initial {
+    flex: 0 1 auto;
+  }
+  &-none {
+    flex: none;
+  }
+  &-50 {
+    flex: 0 0 50%;
+  }
+  &-auto {
+    flex: 0 0 auto;
+  }
+}
+
+//flex direction
+.flex {
+  &-row {
+    flex-direction: row;
+    &-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  &-col {
+    flex-direction: column;
+    &-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+// flex wrap
+.flex {
+  &-wrap {
+    flex-wrap: wrap;
+    &-reverse {
+      flex-wrap: wrap-reverse;
+    }
+  }
+  &-nowrap {
+    flex-wrap: nowrap;
+  }
+}

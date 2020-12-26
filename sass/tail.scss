@@ -1,0 +1,39 @@
+@import "./box-alignment";
+@import "./effects";
+@import "./flexbox";
+@import "./layout";
+@import "./spacing";
+@import "./typography";
+
+.cursor {
+  &-auto {
+    cursor: auto;
+  }
+  &-default {
+    cursor: default;
+  }
+  &-pointer {
+    cursor: pointer;
+  }
+  &-wait {
+    cursor: wait;
+  }
+  &-text {
+    cursor: text;
+  }
+  &-move {
+    cursor: move;
+  }
+  &-not-allowed {
+    cursor: not-allowed;
+  }
+}
+
+.pointer {
+  &-events-none {
+    pointer-events: none;
+  }
+  &-events-auto {
+    pointer-events: auto;
+  }
+}
