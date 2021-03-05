@@ -18,6 +18,19 @@
   &-auto {
     flex: 0 0 auto;
   }
+  &-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-h {
+      display: flex;
+      justify-content: center;
+    }
+    &-v {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
 
 //flex direction
