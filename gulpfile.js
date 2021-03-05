@@ -7,9 +7,9 @@ const rename = require("gulp-rename");
 
 sass.compiler = require("node-sass");
 
-gulp.task("sass", function () {
+gulp.task("scss:min", function () {
   return gulp
-    .src("./sass/tail.scss")
+    .src("./scss/tail.scss")
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
     .pipe(rename("tail.min.css"))
@@ -17,6 +17,22 @@ gulp.task("sass", function () {
     .pipe(gulp.dest("./css"));
 });
 
-gulp.task("sass:watch", function () {
-  gulp.watch("./sass/**/*.scss", ["sass"]);
+gulp.task("scss:compact", function () {
+  return gulp
+    .src("./scss/tail.scss")
+    .pipe(sourcemaps.init())
+    .pipe(sass({ outputStyle: "compact" }).on("error", sass.logError))
+    .pipe(sourcemaps.write("./maps"))
+    .pipe(gulp.dest("./css"));
 });
+
+gulp.task("scss:watch", function () {
+  gulp.watch("./scss/**/*.scss", ["sass"]);
+});
+
+gulp.task(
+  "build",
+  gulp.series("scss:min", "scss:compact", (done) => {
+    done();
+  })
+);
