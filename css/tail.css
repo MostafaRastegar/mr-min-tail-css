@@ -52,7 +52,7 @@
 
 .opacity-95 { opacity: 0.95; }
 
-.flex-1 { flex: 1 1 0%; }
+.flex-1 { flex: 1; }
 
 .flex-initial { flex: 0 1 auto; }
 
