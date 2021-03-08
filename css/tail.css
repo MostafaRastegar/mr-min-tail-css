@@ -164,6 +164,10 @@ z-index
 
 .ml-auto { margin-left: auto; }
 
+.mt-auto { margin-top: auto; }
+
+.mb-auto { margin-bottom: auto; }
+
 .text-left { text-align: left; }
 
 .text-left-center { text-align: center; }
