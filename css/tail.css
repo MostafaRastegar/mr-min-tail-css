@@ -168,11 +168,11 @@ z-index
 
 .text-left { text-align: left; }
 
-.text-left-center { text-align: center; }
+.text-center { text-align: center; }
 
-.text-left-right { text-align: right; }
+.text-right { text-align: right; }
 
-.text-left-justify { text-align: justify; }
+.text-justify { text-align: justify; }
 
 .font-bold { font-weight: bold; }
 
