@@ -13,6 +13,14 @@
   }
 }
 
-.font-bold {
-  font-weight: bold;
+.font {
+  &-light {
+    font-weight: 300;
+  }
+  &-normal {
+    font-weight: normal;
+  }
+  &-bold {
+    font-weight: bold;
+  }
 }

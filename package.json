@@ -1,6 +1,6 @@
 {
   "name": "mr-min-tail-css",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "mini package for css classNames",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/MostafaRastegar/mr-min-tail-css.git"
   },
   "keywords": [
-    "css"
+    "css",
+    "scss",
+    "tail",
+    "react-native"
   ],
   "author": "Mostafa Rastegar",
   "license": "MIT",
@@ -25,5 +28,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "hgs-gulp-react-native-stylesheet-css": "^1.4.4"
   }
 }
