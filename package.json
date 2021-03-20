@@ -25,5 +25,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "hgs-gulp-react-native-stylesheet-css": "^1.4.4"
   }
 }

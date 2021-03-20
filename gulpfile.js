@@ -4,6 +4,7 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const rename = require("gulp-rename");
+const reactNativeStylesheetCss = require("hgs-gulp-react-native-stylesheet-css");
 
 sass.compiler = require("node-sass");
 
@@ -17,6 +18,13 @@ gulp.task("scss:min", function () {
     .pipe(gulp.dest("./css"));
 });
 
+gulp.task("scss:reactNative", function () {
+  return gulp
+    .src("./scss/tail.scss")
+    .pipe(sass())
+    .pipe(reactNativeStylesheetCss())
+    .pipe(gulp.dest("./react-native"));
+});
 gulp.task("scss:compact", function () {
   return gulp
     .src("./scss/tail.scss")
@@ -32,7 +40,7 @@ gulp.task("scss:watch", function () {
 
 gulp.task(
   "build",
-  gulp.series("scss:min", "scss:compact", (done) => {
+  gulp.series("scss:min", "scss:compact", "scss:reactNative", (done) => {
     done();
   })
 );
