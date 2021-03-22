@@ -9,7 +9,7 @@ The mini tailwind CSS class names package, for Front-End developers.
 - spacing
 - typography
 
-#Two way For use:
+# Two way For use:
 
 1: Install Package
 
