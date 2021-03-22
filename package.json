@@ -1,7 +1,10 @@
 {
   "name": "mr-min-tail-css",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "mini package for css classNames",
+  "author": "Mostafa Rastegar",
+  "email": "m.rastegar991@gmail.com",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +19,6 @@
     "tail",
     "react-native"
   ],
-  "author": "Mostafa Rastegar",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MostafaRastegar/mr-min-tail-css/issues"
   },
