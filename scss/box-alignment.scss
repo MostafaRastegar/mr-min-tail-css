@@ -21,23 +21,22 @@
   &-evenly {
     justify-content: space-evenly;
   }
-
-  &-items-start {
-    justify-items: start;
-  }
-  &-items-end {
-    justify-items: end;
-  }
-  &-items-center {
-    justify-items: center;
-  }
-  &-items-stretch {
-    justify-items: stretch;
-  }
 }
 
 .align {
   &-items-center {
     align-items: center;
+  }
+  &-items-start {
+    align-items: flex-start;
+  }
+  &-items-end {
+    align-items: flex-end;
+  }
+  &-items-center {
+    align-items: center;
+  }
+  &-items-stretch {
+    align-items: stretch;
   }
 }

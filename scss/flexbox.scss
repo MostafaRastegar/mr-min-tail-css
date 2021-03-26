@@ -6,27 +6,11 @@
   &-initial {
     flex: 0 1 auto;
   }
-  &-none {
-    flex: none;
-  }
   &-50 {
     flex: 0 0 50%;
   }
   &-auto {
     flex: 0 0 auto;
-  }
-  &-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &-h {
-      display: flex;
-      justify-content: center;
-    }
-    &-v {
-      display: flex;
-      align-items: center;
-    }
   }
 }
 

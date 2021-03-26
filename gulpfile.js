@@ -20,7 +20,7 @@ gulp.task("scss:min", function () {
 
 gulp.task("scss:reactNative", function () {
   return gulp
-    .src("./scss/tail.scss")
+    .src("./scss/tail-react-native.scss")
     .pipe(sass())
     .pipe(reactNativeStylesheetCss())
     .pipe(gulp.dest("./react-native"));
