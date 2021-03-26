@@ -23,6 +23,7 @@ gulp.task("scss:reactNative", function () {
     .src("./scss/tail-react-native.scss")
     .pipe(sass())
     .pipe(reactNativeStylesheetCss())
+    .pipe(rename("index.js"))
     .pipe(gulp.dest("./react-native"));
 });
 gulp.task("scss:compact", function () {
