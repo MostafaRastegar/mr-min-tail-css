@@ -1,13 +1,14 @@
 {
   "name": "mr-min-tail-css",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "mini package for css classNames",
   "author": "Mostafa Rastegar",
   "email": "m.rastegar991@gmail.com",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",

@@ -21,9 +21,6 @@ export default StyleSheet.create({
     "justifyEvenly": {
         "justifyContent": "space-evenly"
     },
-    "justifyItemsAuto": {
-        "justifyItems": "auto"
-    },
     "justifyItemsStart": {
         "justifyItems": "start"
     },
