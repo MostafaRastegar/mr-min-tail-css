@@ -1,0 +1,123 @@
+.block {
+  display: block;
+}
+.flex-none {
+  flex: none;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.flow-root {
+  display: flow-root;
+}
+.grid {
+  display: grid;
+}
+.inline-grid {
+  display: inline-grid;
+}
+.contents {
+  display: contents;
+}
+
+.align {
+  &-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-h {
+      display: flex;
+      justify-content: center;
+    }
+    &-v {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+// over-flow
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.overflow-x-visible {
+  overflow-x: visible;
+}
+.overflow-y-visible {
+  overflow-y: visible;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+// position
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+.sticky {
+  position: sticky;
+}
+
+// z-index
+.z-auto {
+  z-index: auto;
+}
+
+// cursor
+.cursor {
+  &-auto {
+    cursor: auto;
+  }
+  &-default {
+    cursor: default;
+  }
+  &-pointer {
+    cursor: pointer;
+  }
+  &-wait {
+    cursor: wait;
+  }
+  &-text {
+    cursor: text;
+  }
+  &-move {
+    cursor: move;
+  }
+  &-not-allowed {
+    cursor: not-allowed;
+  }
+}
+
+// pointer
+.pointer {
+  &-events-none {
+    pointer-events: none;
+  }
+  &-events-auto {
+    pointer-events: auto;
+  }
+}
